@@ -1,32 +1,47 @@
 
 
+
 function disableButton() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+
+  
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+  
+
+
   const btn = document.getElementById('btn-completed-1');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
+  btn.classList.add('bg-gray-400'); 
+  btn.classList.remove('bg-blue-800'); 
  
 
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1;
   }
 
-  // Decrease the number in <h5> by 1
+
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText);
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1; 
   }
   const historyElement = document.getElementById('history');
-  const historyMessage = `clar fhgetfg7uc iedfsyreigdgf erdfy8urfewer dfsy8sfg`;
+  const historyMessage = `You have completed the task Fix Modlie Button issue at:  ` + timeString;
   historyElement.innerHTML = historyMessage;
 
- document.getElementById('history-1').style.backgroundColor = 'white'
+ document.getElementById('history').style.backgroundColor = 'white'
 
 
 }
@@ -40,29 +55,48 @@ function disableButton() {
 
 
 function disableButtonn() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+
+  
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+
+
+
+
+
   const btn = document.getElementById('btn-completed-2');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
+  btn.classList.add('bg-gray-400'); 
+  btn.classList.remove('bg-blue-800'); 
  
 
+
+
+
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1;
   }
 
-  // Decrease the number in <h5> by 1
+
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText); 
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1; 
   }
   const historyElemen = document.getElementById('history');
-  const historyMessage = `bsbyd`;
+  const historyMessage = `You have completed the task Add Pay Success Modal at: ` + timeString;
   historyElemen.innerHTML = historyMessage;
 
    document.getElementById('history').style.backgroundColor = 'white'
@@ -74,29 +108,44 @@ function disableButtonn() {
 
 
 function disableButto() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+
+  
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+
+
+
   const btn = document.getElementById('btn-completed-3');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
+  btn.classList.add('bg-gray-400'); 
+  btn.classList.remove('bg-blue-800'); 
  
 
+
+
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1;  1
   }
 
-  // Decrease the number in <h5> by 1
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText); 
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1;
   }
   const historyElement = document.getElementById('history');
-  const historyMessage = `bsbyd`;
+  const historyMessage = `You have completed the task Add New reaction at: ` + timeString;
   historyElement.innerHTML = historyMessage;
 
    document.getElementById('history').style.backgroundColor = 'white'
@@ -108,29 +157,46 @@ function disableButto() {
 
 
 function disablebutton() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+
+  
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+
+
+
+
+
+
   const btn = document.getElementById('btn-completed-4');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
+  btn.classList.add('bg-gray-400');
+  btn.classList.remove('bg-blue-800'); 
  
 
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1;
   }
 
-  // Decrease the number in <h5> by 1
+ 
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText); 
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1; 
   }
   const historyElement = document.getElementById('history');
-  const historyMessage = `bsbyd`;
+  const historyMessage = `You have completed the task Programming Hero  at: ` + timeString;
   historyElement.innerHTML = historyMessage;
 
    document.getElementById('history').style.backgroundColor = 'white'
@@ -142,29 +208,44 @@ function disablebutton() {
 
 
 function disablebuttonn() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+  
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+
+
+
+
+
   const btn = document.getElementById('btn-completed-5');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
- 
+  btn.classList.add('bg-gray-400'); 
+  btn.classList.remove('bg-blue-800'); 
 
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1; 
   }
 
-  // Decrease the number in <h5> by 1
+  
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText);
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1;
   }
   const historyElement = document.getElementById('history');
-  const historyMessage = `bsbyd`;
+  const historyMessage = `You have completed the task Google LLC  at: ` + timeString;
   historyElement.innerHTML = historyMessage;
 
    document.getElementById('history').style.backgroundColor = 'white'
@@ -177,29 +258,49 @@ function disablebuttonn() {
 
 
 function disableBtn() {
-  alert("Button clicked!");
+  alert("Board Updated Successfuly !");
+
+  // Date section
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
+
+
+
+
+
+
+
+  var timeString = hours + ":" + (minutes < 10 ? '0' + minutes : minutes) + ":" + (seconds < 10 ? '0' + seconds : seconds);
+
+
   const btn = document.getElementById('btn-completed-6');
   btn.disabled = true;
-  btn.classList.add('bg-gray-400'); // Optional: You can change the background to gray to show it's disabled
-  btn.classList.remove('bg-blue-800'); // Remove the active button color
+  btn.classList.add('bg-gray-400');
+  btn.classList.remove('bg-blue-800'); r
  
 
+
+
   const countElement = document.getElementById('btn-complet');
-  let currentCount = parseInt(countElement.innerText); // Get the current number
+  let currentCount = parseInt(countElement.innerText); 
   if (currentCount > 0) {
-    countElement.innerText = currentCount + 1; // Decrease by 1
+    countElement.innerText = currentCount + 1; 
   }
 
-  // Decrease the number in <h5> by 1
+
+
+
   const secondCountElement = document.getElementById('sceund-number');
   
   
-  let currentSecondCount = parseInt(secondCountElement.innerText); // Get the current number
+  let currentSecondCount = parseInt(secondCountElement.innerText); 
   if (currentSecondCount > 0) {
-    secondCountElement.innerText = currentSecondCount - 1; // Decrease by 1
+    secondCountElement.innerText = currentSecondCount - 1;
   }
   const historyElement = document.getElementById('history');
-  const historyMessage = `bsbyd`;
+  const historyMessage = `You have completed the task Review Ami Probashi Site  at: ` + timeString;
   historyElement.innerHTML = historyMessage;
 
    document.getElementById('history').style.backgroundColor = 'white'
